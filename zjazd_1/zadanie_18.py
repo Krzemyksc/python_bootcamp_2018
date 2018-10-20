@@ -1,4 +1,4 @@
-# stwirzyć  listę z liczbami od 0 do 100
+# stworzyć  listę z liczbami od 0 do 100
 lista = list(range(101))
 
 wynik = []
