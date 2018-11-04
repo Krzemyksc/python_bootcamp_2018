@@ -8,8 +8,8 @@ max_ = None
 
 while numer_dnia <= LICZBA_DNI_TYGODNIA:
     temp = int(input(f"Podaj temperaturę z dnia {numer_dnia}"))
-    suma_temperatur += temp
     numer_dnia += 1
+    suma_temperatur += temp
     min_ = temp
     max_ = temp
 else:
