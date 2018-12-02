@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista obliczeń</title>
+</head>
+<body>
+<h1>Lista operacji</h1>
+<table>
+{% for m in maths %}
+    <tr>
+        <th><a href="/maths/{{m.id}}"></a> </th>
+        <th>{{m.a}}</th>
+        <th>{{m.b}}</th>
+    </tr>
+{% endfor %}
+</table>
+</body>
+</html>
